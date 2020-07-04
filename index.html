@@ -1,0 +1,28 @@
+<html>
+    <head>
+       <title>Number Guessing Game in HTML</title> 
+       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+       <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <script src="https://kit.fontawesome.com/ef1dba640f.js" crossorigin="anonymous"></script>
+        <div class="container">
+            <h1>Number Guessing Game</h1>
+            <div id="message" class="blue">GUESS A NUMBER</div>
+            <br>
+            <div id="numGuess">You have 10 guesses to get the correct number</div>
+            <p>from 1 to 100</p>
+            <input type="number" id="number">
+            <br>
+            <button id="guessButton">Guess</button>
+
+            <ul id="gueesLeft"></ul>
+            <br>
+            <ul id="pastGuess">
+
+            </ul>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

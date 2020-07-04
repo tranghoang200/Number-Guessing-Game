@@ -1,0 +1,65 @@
+body {
+    background-image: repeating-radial-gradient(blue, green, purple, yellow);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: 100px auto;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+#message {
+    margin: auto;
+    font-size: 24px;
+    width: fit-content;
+}
+
+#numGuess {
+    font-size: 24px;
+    width: fit-content;
+    margin: auto;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: gold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.blue {
+    background-color: deepskyblue;
+}
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.heart {
+    margin-top: 2em; 
+    margin-left: 0.2em;
+    margin-right: 0.2em; 
+    color: crimson;
+}
